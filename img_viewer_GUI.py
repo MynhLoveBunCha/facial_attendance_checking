@@ -60,7 +60,6 @@ while True:
             )
             window["-TOUT-"].update(filename)
             window["-IMAGE-"].update(filename=filename)
-
         except:
             pass
 

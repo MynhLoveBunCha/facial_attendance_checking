@@ -7,8 +7,9 @@ import sys
 Sg.theme("DarkAmber")
 font = ('Consolas', 12, 'bold')
 
+
 def change_directory():
-    '''Change to runtime directory'''
+    # Change to runtime directory
     if getattr(sys, 'frozen', False):
         application_path = os.path.dirname(sys.executable)
     else:

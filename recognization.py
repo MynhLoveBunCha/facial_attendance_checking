@@ -132,7 +132,8 @@ def check_attendance():
             Sg.Text(text="", justification="center", font=font, key="-STU NUM-")
         ],
         [
-            Sg.Text(text="", justification="left", font=font, size=(40, 1), key="-CHOSEN STU-", background_color="#a2ff00", text_color="#151717"),
+            Sg.Text(text="", justification="left", font=font, size=(40, 1), key="-CHOSEN STU-",
+                    background_color="#a2ff00", text_color="#151717"),
             Sg.Button("Uncheck", size=(10, 1), font=font),
             Sg.Button("Unselect", size=(10, 1), font=font)
         ]
